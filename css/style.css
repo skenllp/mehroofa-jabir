@@ -2254,6 +2254,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 .wishes-carousel {
+  position: relative;
   display: flex;
   gap: var(--sp-3);
   padding: 0;

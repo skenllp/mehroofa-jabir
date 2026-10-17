@@ -13,7 +13,7 @@
   if (cards.length === 0) return;
 
   var currentIndex = 0;
-  var autoSlideInterval = 3000; // 3 seconds
+  var autoSlideInterval = 5000; // 5 seconds
   var slideTimer = null;
   var isDragging = false;
   var startX = 0;

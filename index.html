@@ -112,7 +112,7 @@
     <ul class="nav__list">
       <li><a href="#story">Our Story</a></li>
       <li><a href="#couple">The Couple</a></li>
-      <li><a href="#regards">Best Regards</a></li>
+      <li><a href="#regards">Compliments</a></li>
       <!-- <li><a href="#timeline">The Day</a></li> -->
       <li><a href="#venue">Venue</a></li>
       <!-- <li><a href="#wishes">Wishes</a></li> -->
@@ -318,47 +318,226 @@
       </div>
     </section>
 
-    <!-- ========================== BEST REGARDS ============================ -->
-    <section class="section section--alt regards-section" id="regards">
+    <!-- ========================== COMPLIMENTS ============================ -->
+    <section class="section section--alt regards-section section--wishes" id="regards">
       <div class="container">
         <div class="section-head reveal">
-          <p class="eyebrow">Warm Wishes &amp; Blessings</p>
+          <p class="eyebrow">The Bride’s Girl Gang</p>
           <h2 class="section-title">Compliments</h2>
           <div class="divider"><span class="divider__line"></span><span class="divider__glyph">✦</span><span
               class="divider__line"></span></div>
         </div>
+      </div>
 
-        <div class="regards-card reveal" data-delay="1">
-          <div class="regards-card__corner regards-card__corner--tl" aria-hidden="true">
-            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 36V12C4 7.58172 7.58172 4 12 4H36" stroke="var(--color-gold)" stroke-width="1.2" stroke-linecap="round"/>
-              <circle cx="4" cy="36" r="2" fill="var(--color-gold)"/>
-              <circle cx="36" cy="4" r="2" fill="var(--color-gold)"/>
+      <div class="container--wishes">
+        <div class="wishes-carousel-wrap reveal" data-delay="1">
+          <button class="wishes-nav wishes-nav--prev" id="wishes-prev" aria-label="Previous wish">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="15 18 9 12 15 6"></polyline>
             </svg>
-          </div>
-          <div class="regards-card__corner regards-card__corner--br" aria-hidden="true">
-            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M36 4V28C36 32.4183 32.4183 36 28 36H4" stroke="var(--color-gold)" stroke-width="1.2" stroke-linecap="round"/>
-              <circle cx="36" cy="4" r="2" fill="var(--color-gold)"/>
-              <circle cx="4" cy="36" r="2" fill="var(--color-gold)"/>
+          </button>
+          <button class="wishes-nav wishes-nav--next" id="wishes-next" aria-label="Next wish">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
             </svg>
+          </button>
+
+          <div class="wishes-carousel-container" id="wishes-carousel-container">
+            <ul class="wishes-carousel" id="wishes-carousel">
+
+              <!-- Wish 1: Nikki -->
+              <li class="wish-card is-active">
+                <div class="regards-card__corner regards-card__corner--tl" aria-hidden="true">
+                  <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 36V12C4 7.58172 7.58172 4 12 4H36" stroke="var(--color-gold)" stroke-width="1.2" stroke-linecap="round"/>
+                    <circle cx="4" cy="36" r="2" fill="var(--color-gold)"/>
+                    <circle cx="36" cy="4" r="2" fill="var(--color-gold)"/>
+                  </svg>
+                </div>
+                <div class="regards-card__corner regards-card__corner--br" aria-hidden="true">
+                  <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M36 4V28C36 32.4183 32.4183 36 28 36H4" stroke="var(--color-gold)" stroke-width="1.2" stroke-linecap="round"/>
+                    <circle cx="36" cy="4" r="2" fill="var(--color-gold)"/>
+                    <circle cx="4" cy="36" r="2" fill="var(--color-gold)"/>
+                  </svg>
+                </div>
+                <div class="wish-card__quote" aria-hidden="true">“</div>
+                <p class="wish-card__text">
+                  Dearest mehru<br>
+                  So happy to see you begin this new chapter of your life! May your new journey be filled with endless love, beautiful memories, and a lifetime of happiness. Forever wishing you the best!
+                </p>
+                <div class="wish-card__signature">
+                  <span class="wish-card__icon">✦</span>
+                  <span>~ Nikki</span>
+                </div>
+              </li>
+
+              <!-- Wish 2: Nesmi -->
+              <li class="wish-card">
+                <div class="regards-card__corner regards-card__corner--tl" aria-hidden="true">
+                  <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 36V12C4 7.58172 7.58172 4 12 4H36" stroke="var(--color-gold)" stroke-width="1.2" stroke-linecap="round"/>
+                    <circle cx="4" cy="36" r="2" fill="var(--color-gold)"/>
+                    <circle cx="36" cy="4" r="2" fill="var(--color-gold)"/>
+                  </svg>
+                </div>
+                <div class="regards-card__corner regards-card__corner--br" aria-hidden="true">
+                  <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M36 4V28C36 32.4183 32.4183 36 28 36H4" stroke="var(--color-gold)" stroke-width="1.2" stroke-linecap="round"/>
+                    <circle cx="36" cy="4" r="2" fill="var(--color-gold)"/>
+                    <circle cx="4" cy="36" r="2" fill="var(--color-gold)"/>
+                  </svg>
+                </div>
+                <div class="wish-card__quote" aria-hidden="true">“</div>
+                <p class="wish-card__text">
+                  Congratulations, Mehru! 🤍🥹<br>
+                  May Allah bless you both with a love that feels like home and a lifetime of happiness. You deserve all the beautiful things coming your way.
+                </p>
+                <div class="wish-card__signature">
+                  <span class="wish-card__icon">✦</span>
+                  <span>~ Nesmi</span>
+                </div>
+              </li>
+
+              <!-- Wish 3: Ahi -->
+              <li class="wish-card">
+                <div class="regards-card__corner regards-card__corner--tl" aria-hidden="true">
+                  <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 36V12C4 7.58172 7.58172 4 12 4H36" stroke="var(--color-gold)" stroke-width="1.2" stroke-linecap="round"/>
+                    <circle cx="4" cy="36" r="2" fill="var(--color-gold)"/>
+                    <circle cx="36" cy="4" r="2" fill="var(--color-gold)"/>
+                  </svg>
+                </div>
+                <div class="regards-card__corner regards-card__corner--br" aria-hidden="true">
+                  <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M36 4V28C36 32.4183 32.4183 36 28 36H4" stroke="var(--color-gold)" stroke-width="1.2" stroke-linecap="round"/>
+                    <circle cx="36" cy="4" r="2" fill="var(--color-gold)"/>
+                    <circle cx="4" cy="36" r="2" fill="var(--color-gold)"/>
+                  </svg>
+                </div>
+                <div class="wish-card__quote" aria-hidden="true">“</div>
+                <p class="wish-card__text">
+                  So happy to see you starting this beautiful new chapter 🤍🥹<br>
+                  Wishing you both a lifetime of love, and happiness. May you always be each other’s safe place. ❤️🫶🏻
+                </p>
+                <div class="wish-card__signature">
+                  <span class="wish-card__icon">✦</span>
+                  <span>~ Ahi</span>
+                </div>
+              </li>
+
+              <!-- Wish 4: Anju -->
+              <li class="wish-card">
+                <div class="regards-card__corner regards-card__corner--tl" aria-hidden="true">
+                  <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 36V12C4 7.58172 7.58172 4 12 4H36" stroke="var(--color-gold)" stroke-width="1.2" stroke-linecap="round"/>
+                    <circle cx="4" cy="36" r="2" fill="var(--color-gold)"/>
+                    <circle cx="36" cy="4" r="2" fill="var(--color-gold)"/>
+                  </svg>
+                </div>
+                <div class="regards-card__corner regards-card__corner--br" aria-hidden="true">
+                  <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M36 4V28C36 32.4183 32.4183 36 28 36H4" stroke="var(--color-gold)" stroke-width="1.2" stroke-linecap="round"/>
+                    <circle cx="36" cy="4" r="2" fill="var(--color-gold)"/>
+                    <circle cx="4" cy="36" r="2" fill="var(--color-gold)"/>
+                  </svg>
+                </div>
+                <div class="wish-card__quote" aria-hidden="true">“</div>
+                <p class="wish-card__text">
+                  Congratulations on your wedding, my girl 🤍🥹<br>
+                  You’ve always been more than a best friend to me, you’re family. …Wishing you a lifetime of love, happiness, and all the beautiful things your heart deserves. ❤️✨
+                </p>
+                <div class="wish-card__signature">
+                  <span class="wish-card__icon">✦</span>
+                  <span>Anju ❤️</span>
+                </div>
+              </li>
+
+              <!-- Wish 5: Amal -->
+              <li class="wish-card">
+                <div class="regards-card__corner regards-card__corner--tl" aria-hidden="true">
+                  <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 36V12C4 7.58172 7.58172 4 12 4H36" stroke="var(--color-gold)" stroke-width="1.2" stroke-linecap="round"/>
+                    <circle cx="4" cy="36" r="2" fill="var(--color-gold)"/>
+                    <circle cx="36" cy="4" r="2" fill="var(--color-gold)"/>
+                  </svg>
+                </div>
+                <div class="regards-card__corner regards-card__corner--br" aria-hidden="true">
+                  <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M36 4V28C36 32.4183 32.4183 36 28 36H4" stroke="var(--color-gold)" stroke-width="1.2" stroke-linecap="round"/>
+                    <circle cx="36" cy="4" r="2" fill="var(--color-gold)"/>
+                    <circle cx="4" cy="36" r="2" fill="var(--color-gold)"/>
+                  </svg>
+                </div>
+                <div class="wish-card__quote" aria-hidden="true">“</div>
+                <p class="wish-card__text">
+                  Jabi &amp; Mehru, Having known you both for so long, I’ve had the privilege of witnessing your journey together through the highs, the lows, and the moments when things seemed uncertain. Yet, you chose to stand by each other, grow together, and build a bond that has only grown stronger with time. It makes me genuinely happy to witness this beautiful new chapter of your lives and to be a part of your special moments. Wishing you both a lifetime of love, happiness, and countless beautiful memories together. ❤️
+                </p>
+                <div class="wish-card__signature">
+                  <span class="wish-card__icon">✦</span>
+                  <span>Amal.</span>
+                </div>
+              </li>
+
+              <!-- Wish 6: Munna -->
+              <li class="wish-card">
+                <div class="regards-card__corner regards-card__corner--tl" aria-hidden="true">
+                  <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 36V12C4 7.58172 7.58172 4 12 4H36" stroke="var(--color-gold)" stroke-width="1.2" stroke-linecap="round"/>
+                    <circle cx="4" cy="36" r="2" fill="var(--color-gold)"/>
+                    <circle cx="36" cy="4" r="2" fill="var(--color-gold)"/>
+                  </svg>
+                </div>
+                <div class="regards-card__corner regards-card__corner--br" aria-hidden="true">
+                  <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M36 4V28C36 32.4183 32.4183 36 28 36H4" stroke="var(--color-gold)" stroke-width="1.2" stroke-linecap="round"/>
+                    <circle cx="36" cy="4" r="2" fill="var(--color-gold)"/>
+                    <circle cx="4" cy="36" r="2" fill="var(--color-gold)"/>
+                  </svg>
+                </div>
+                <div class="wish-card__quote" aria-hidden="true">“</div>
+                <p class="wish-card__text">
+                  To my dearest Mehru &amp; Jabir, ❤️<br><br>
+                  No matter how much we fight, Mehru, you will always be one of the most precious people in my life. You have always been more than a sister to me my second mother, my protector, and my safe place. As you begin this beautiful new chapter with Jabir, I pray that your life together is filled with endless love, happiness, peace, and countless beautiful memories. May you always stand by each other and find comfort and joy in one another.<br><br>
+                  No matter where life takes us, I’ll always be your little sister, loving you more than our fights could ever show. May Allah bless your marriage and keep you both happy together, always. ❤️
+                </p>
+                <div class="wish-card__signature">
+                  <span class="wish-card__icon">✦</span>
+                  <span>Munna (bride’s sister).</span>
+                </div>
+              </li>
+
+              <!-- Wish 7: Nikku -->
+              <li class="wish-card">
+                <div class="regards-card__corner regards-card__corner--tl" aria-hidden="true">
+                  <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 36V12C4 7.58172 7.58172 4 12 4H36" stroke="var(--color-gold)" stroke-width="1.2" stroke-linecap="round"/>
+                    <circle cx="4" cy="36" r="2" fill="var(--color-gold)"/>
+                    <circle cx="36" cy="4" r="2" fill="var(--color-gold)"/>
+                  </svg>
+                </div>
+                <div class="regards-card__corner regards-card__corner--br" aria-hidden="true">
+                  <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M36 4V28C36 32.4183 32.4183 36 28 36H4" stroke="var(--color-gold)" stroke-width="1.2" stroke-linecap="round"/>
+                    <circle cx="36" cy="4" r="2" fill="var(--color-gold)"/>
+                    <circle cx="4" cy="36" r="2" fill="var(--color-gold)"/>
+                  </svg>
+                </div>
+                <div class="wish-card__quote" aria-hidden="true">“</div>
+                <p class="wish-card__text">
+                  Dear mehru kutttaaa,<br>
+                  So happy to see you marry the love of your life. May Allah bless your marriage with love, mercy, happiness, and endless barakah. Wishing you both a beautiful forever. 🤍
+                </p>
+                <div class="wish-card__signature">
+                  <span class="wish-card__icon">✦</span>
+                  <span>~Nikku</span>
+                </div>
+              </li>
+
+            </ul>
           </div>
 
-          <p class="regards-card__role">Special Compliments From</p>
-          <div class="regards-card__list">
-            <p class="regards-card__item">
-              Ts. Moosa &amp; Anumma Moosa <span class="regards-card__prayer">(May Allah's Mercy be upon her)</span>
-            </p>
-            <p class="regards-card__item">
-              Jamal Hamza <span class="regards-card__prayer">(May Allah's Mercy be upon him)</span> &amp; Jameela Jamal
-            </p>
-            <p class="regards-card__item">
-              Mehrujan Musthafa, Kareem Moosa &amp; Jaleel Jamal
-            </p>
-          </div>
-          <div class="regards-card__divider" aria-hidden="true"></div>
-          <p class="regards-card__note">Wishing you a blessed and joyous lifetime together</p>
-          <div class="regards-card__ornament" aria-hidden="true">❋</div>
+          <div class="wishes-dots" id="wishes-dots"></div>
         </div>
       </div>
     </section>
